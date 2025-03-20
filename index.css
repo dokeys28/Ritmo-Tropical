@@ -1,0 +1,66 @@
+
+#redes-sociales {
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+}
+
+#seccion-1{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(resources/images/fotogrupal.jpg);
+  background-size:contain;
+  background-position: center;
+  background-color: #205050;
+}
+
+#cabecera {
+  display: flex;
+  height: 25%;
+  width: 70%;
+  margin: auto;
+}
+
+#cabecera-izq{
+  width: 33%;
+  padding: 20px;
+}
+#cabecera-der{
+  display: block;
+  width: 100%;
+  padding: 20px;
+}
+
+#logo{
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  border-radius: 20%;
+}
+
+#logo-div{
+  background-color: #000000;
+  border-radius: 20%;
+  margin: 10% 5%;
+}
+
+#cabecera-der-arriba {
+  height: 50%;
+  justify-self: end;
+}
+
+#cabecera-der-abajo {
+  display: flex;
+  justify-content: space-between;
+  height: 15%;
+}
+
+#cabecera-der-abajo button{
+  flex-grow: 1;
+  border: none;
+  background-color: rgba(255, 196, 0, 0.5);
+}
+
+#cabecera-der-abajo button:hover{
+  background-color: rgb(255, 196, 0)
+}
