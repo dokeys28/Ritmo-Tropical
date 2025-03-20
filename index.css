@@ -29,6 +29,11 @@ html{
 #seccion-3{
   width: 100vw;
   height: 100vh;
+ background-color: #fff;
+}
+#seccion-4{
+  width: 100vw;
+  height: 100vh;
   background-color: #fff;
 }
 
@@ -136,4 +141,33 @@ audio{
 
 #texto-biografia p{
   text-align: justify;
+}
+
+#div-contacto{
+  width: 100%;
+  height: 100%;
+}
+#contacto{
+  text-align: center;
+  font-size: 3em;
+}
+
+#contenido-contacto{
+  display: flex;
+  position: relative;
+}
+
+#contenido-contacto img{
+  width: 100%;
+}
+#contactos{
+  position: absolute;
+  right: 10%;
+  top:10%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  padding: 1em;
+  border: 0.5em solid rgb(29, 164, 31);
 }
