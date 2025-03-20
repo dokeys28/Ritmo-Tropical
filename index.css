@@ -7,7 +7,7 @@
 body{
   background-image: url(resources/images/fotogrupal.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: fixed;
   background-repeat: no-repeat;
   width: 100vw;
 }
