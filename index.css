@@ -25,12 +25,12 @@ body{
 
 #cabecera-izq{
   width: 33%;
-  padding: 20px;
+  padding: 1em;
 }
 #cabecera-der{
   display: block;
   width: 100%;
-  padding: 20px;
+  padding: 1em;
 }
 
 #logo{
