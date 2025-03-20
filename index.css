@@ -15,6 +15,35 @@ body{
   width: 100vw;
   height: 100vh;
 }
+#seccion-2{
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+}
+
+#lo-nuevo{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#lo-nuevo h1{
+  font-size: 2em;
+  color: #fff;
+  background-color: rgb(0, 0, 0);
+  padding: 0.5em;
+}
+
+#foto-tema-promocional{
+  display: flex;
+  justify-content: center;
+}
+
+#foto-tema-promocional img{
+  width: 30%;
+  height: 30%;
+  padding: 2.5%;
+}
 
 #cabecera {
   display: flex;
@@ -65,4 +94,8 @@ body{
 
 #cabecera-der-abajo button:hover{
   background-color: rgb(255, 196, 0)
+}
+
+audio{
+  width: 10em; 
 }
