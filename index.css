@@ -7,7 +7,9 @@
 body{
   background-image: url(resources/images/fotogrupal.jpg);
   background-size: cover;
-  background-position:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
 }
 #seccion-1{
   width: 100vw;
