@@ -9,7 +9,7 @@
   width: 100vw;
   height: 100vh;
   background-image: url(resources/images/fotogrupal.jpg);
-  background-size:contain;
+  background-size:cover;
   background-position: center;
 }
 
