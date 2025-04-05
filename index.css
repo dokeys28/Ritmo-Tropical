@@ -27,6 +27,7 @@ html{
   position: absolute;
   top:0;
   width: 20%;
+  border-radius: 50%;
 }
 
 .seccion-1{
