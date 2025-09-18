@@ -136,6 +136,9 @@ footer {
   .nav p {
     font-size: 0;
   }
+  .biografiaDiv {
+    grid-template-columns: 1fr;
+  }
   .textointegrantes {
     position: static;
     width: 100%;
