@@ -113,6 +113,20 @@ h1 {
   z-index: 10;
 }
 
+.biografiaDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 3rem;
+  background-color: rgb(235, 235, 235);
+}
+
+.biografiaDiv p {
+  color: black;
+  text-align: justify;
+  padding: 1rem;
+}
+
 @media (max-width: 600px) {
   .nav p {
     font-size: 0;
